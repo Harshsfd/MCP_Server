@@ -1,24 +1,21 @@
 from collections import Counter
-import os
+from .file_reader import read_file
 
-def analyze_text(path: str):
-    if not os.path.exists(path):
-        return {"error": "File not found"}
-
-    with open(path, "r") as f:
-        content = f.read()
-
-    lines = content.split("\n")
+def analyze_text(path):
+    result = read_file(path)
+    if "error" in result:
+        return result
+    
+    content = result["content"]
+    lines = content.splitlines()
     words = content.split()
     characters = len(content)
-
-    # Most common words
-    word_counts = Counter(words)
-    most_common = word_counts.most_common(5)  # Top 5 words
-
+    
+    most_common_words = Counter(words).most_common(5)
+    
     return {
         "lines": len(lines),
         "words": len(words),
         "characters": characters,
-        "most_common_words": most_common
+        "most_common_words": most_common_words
     }
