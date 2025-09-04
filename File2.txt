@@ -1,1 +1,98 @@
-Hlo Meenu I Love you ❤️
+Name - Harsh Bhardwaj
+Phone - 8569921708
+Email - harshbhardwajsfd@gmail.com
+LinkedIn - linkedin/harshsfd
+GitHub - github/Harshsfd
+
+
+Professional Summary
+
+Passionate and results-driven Software Developer with hands-on experience in full-stack web development. Skilled in Python, Django, React.js, and RESTful API design. Proven ability to build scalable, user-centric applications. Strong understanding of software engineering principles and agile methodologies. Seeking to leverage skills in a challenging software engineering role.
+
+
+Education
+
+B.Tech in Computer Science and Engineering
+Government Engineering College, Nilokheri, Haryana
+CGPA: 7.5
+
+Diploma in Computer Engineering
+Government Polytechnic, Nilokheri, Haryana
+CGPA: 8.0
+
+
+Experience
+
+Junior Software Developer
+Pie Infocomm Pvt. Ltd., Noida, India
+Aug 2022 – Sep 2022
+
+Developed a task automation tool using Python and Django, reducing manual workload by 30%.
+
+Enhanced UI responsiveness with Bootstrap and JavaScript, improving UX by 20%.
+
+Optimized API response time by 25% in real-time applications.
+
+Built front-end components using React.js for scalable SPA development.
+
+
+Projects
+
+SIET Resume Generator (Live Project)
+
+Developed a resume builder web app that generates ATS-optimized resumes with pre-designed templates.
+
+Integrated email functionality using EmailJS to allow resume downloads via email.
+
+Built form validation, live preview, and real-time template switching features.
+
+Helped 200+ users generate professional resumes with ease.
+
+
+CPU Scheduling Visualizer
+
+Created a real-time simulation tool for visualizing various CPU scheduling algorithms.
+
+Implemented Gantt chart output, average waiting time, and turnaround time calculation.
+
+Designed an intuitive frontend for student usability and testing.
+
+Used by 300+ students to understand core OS concepts better.
+
+
+EduWeb (Live Project)
+
+Built an education-focused platform that includes user registration, course listing, and AI chatbot integration.
+
+Implemented secure login system and personalized dashboard.
+
+AI Chatbot assists students with syllabus, doubts, and material recommendations.
+
+Increased engagement rate among students by over 50%.
+
+
+Technical Skills
+
+Programming Languages: Python, C++, C
+
+Frontend: HTML, CSS, JavaScript, React.js, Bootstrap
+
+Backend: Django, Node.js, Express.js
+
+Databases: MySQL, MongoDB
+
+Cloud/Tools: Git, GitHub, Postman, Figma, Canva, VS Code, EmailJS
+
+AI Tools: OpenAI API, LangChain, Hugging Face, Prompt Engineering
+
+OS: Windows, Linux (Lubuntu)
+
+
+Achievements
+
+Solved 150+ coding problems on GeeksforGeeks and received official goodies for consistency.
+
+Secured 2nd position in Project Display event at SIET Nilokheri.
+
+Served as Event Coordinator for Code ’N’ Complete tech fest.
+
