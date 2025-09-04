@@ -1,26 +1,20 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .routes import router
+from app.routes import router
 
-app = FastAPI(title="MCP Server - Local Tools")
+app = FastAPI(title="MCP Server", version="1.0")
 
-# ---- CORS setup ----
-origins = [
-    "http://localhost:3000",  # React frontend
-    "http://127.0.0.1:3000"
-]
-
+# ✅ CORS Middleware Fix
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,       # allow frontend origin
+    allow_origins=["*"],  # production में यहां specific domain डाल सकते हैं
     allow_credentials=True,
-    allow_methods=["*"],         # allow GET, POST, PUT, DELETE
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ---- Include API routes ----
 app.include_router(router)
 
 @app.get("/")
-def home():
-    return {"message": "MCP Server is running 🚀 With Frontend"}
+def root():
+    return {"message": "MCP Server is running!"}
