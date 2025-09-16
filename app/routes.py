@@ -41,35 +41,3 @@ def update_task_route(task_id: int, title: str = None, description: str = None, 
 @router.delete("/todos/{task_id}")
 def delete_task_route(task_id: int):
     return delete_task(task_id)
-
-
-
-@router.get("/.well-known/mcp/server-card")
-def server_card():
-    return {
-        "server_name": "Local Multitask MCP Server",
-        "host": "https://mcp-server-qko7.onrender.com",
-        "version": "0.1",
-        "tools": [
-            {
-                "name": "calculate",
-                "path": "/calculate",
-                "method": "GET",
-                "description": "Basic arithmetic operations",
-                "params": [{"name":"a","type":"number"},{"name":"b","type":"number"},{"name":"op","type":"string"}],
-                "param_schema_depth": 1,
-                "avg_tokens_estimate": 10,        # developer-provided estimate
-                "sample_output": {"result": 3}
-            },
-            {
-                "name":"read_file",
-                "path":"/read_file",
-                "method":"GET",
-                "description":"Return file contents",
-                "params":[{"name":"path","type":"string"}],
-                "param_schema_depth":1,
-                "avg_tokens_estimate":4000
-            },
-            ...
-        ]
-    }
